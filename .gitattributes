@@ -1,0 +1,11 @@
+# Normalizar line endings al hacer commit
+* text=auto
+
+# Notebooks: mantener LF para compatibilidad entre plataformas
+*.ipynb text eol=lf
+
+# Archivos binarios
+*.png binary
+*.jpg binary
+*.safetensors binary
+*.bin binary

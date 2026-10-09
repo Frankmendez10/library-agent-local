@@ -1,0 +1,51 @@
+# ─── Secretos y configuración local ─────────────────────────────────────────
+.env
+*.env.local
+
+# ─── Entorno virtual Python ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# ─── Pytest ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# ─── Modelos y cachés de Hugging Face / sentence-transformers ────────────────
+.cache/
+*.bin
+*.safetensors
+models/
+
+# ─── Llama Stack ──────────────────────────────────────────────────────────────
+mi_config_llama_stack.yaml
+llama_stack_run.log
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
